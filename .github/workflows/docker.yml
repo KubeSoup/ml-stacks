@@ -34,7 +34,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghcr.io/KubeSoup/ml-stacks/dash-example
+            ghcr.io/KubeSoup/ml-stacks/mlflow-docker
           tags: |
             type=raw,value=latest
             type=raw,value=${{ github.run_id }}
